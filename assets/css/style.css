@@ -8,13 +8,7 @@ body {
     
 }
 
-#dwight {
-    position: fixed;
-    float: left;
-    top: 80px;
-    left: 30px;
-    border: 7px solid grey;
-}
+
 #container {
     height: 700px;
     text-align: center;
@@ -40,14 +34,15 @@ h1 {
     margin-top: 20px;
     padding-top: 30px;
     border: solid white 5px;
-    font-weight: 3000;
+    font-weight: bolder;
 
 }
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Comfortaa', cursive;
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
     color: black;
+    margin-top: 30px;
 
 }
 
@@ -57,6 +52,10 @@ h3 {
     margin-bottom: 20px;
     color: black;
 }
+img {
+    height: 220px;
+    width:350px;
+}
 
 button {
     width: 50%;
@@ -65,10 +64,11 @@ button {
     margin:auto;
     cursor: pointer;
     background-color: black;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Shadows Into Light Two', cursive;
     letter-spacing: 2px;
+    color: white;
 
 }
 
@@ -83,4 +83,13 @@ button {
 button:hover {
     background: lightseagreen;
     border: solid 4px blanchedalmond;
+}
+
+#counter {
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+    color: black;
+
 }

@@ -109,5 +109,33 @@ var questions = [{
 ];
 console.table(questions);
 
-var timer = 30;
-var questionArea = $("#trivia-questions")
+var question = questions;
+var timer = 20;
+var questionArea = $("#trivia-questions");
+var currentQuestion = 0;
+var correct = 0;
+var incorrect = 0;
+
+function countdown () {
+  timer--;
+  $("#counter").html(timer);
+  
+  if (timer === 0) {;
+      timesUp ();
+  }
+};
+
+function loadQuestion () {
+    timer = setInterval(timer, 1000);
+    questionArea.html("<h2>" + questions[currentQuestion].question + "</h2>");
+    for ( var i = 0; i<questions[currentQuestion].answers.length; i++) {
+     questionArea.append('<button class="answer-button" id="button"' + 'data-name="' + questions[currentQuestion].answers[i] + '">' + questions[currentQuestion].answers[i] + "</button>");
+    }
+}
+function nextQuestion () {
+    timer = 20;
+    $("#counter").html(timer);
+    currentQuestion++;
+    loadQuestion ();
+}
+nextQuestion ();
