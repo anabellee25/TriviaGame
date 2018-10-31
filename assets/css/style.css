@@ -8,6 +8,13 @@ body {
     
 }
 
+#dwight {
+    position: fixed;
+    float: left;
+    top: 80px;
+    left: 30px;
+    border: 7px solid grey;
+}
 #container {
     height: 700px;
     text-align: center;
@@ -15,6 +22,7 @@ body {
     background-color: bisque;
     opacity: .7;
     margin: auto;
+    margin-top: 20px;
     border: solid white 4px;
 
 }
@@ -24,20 +32,22 @@ h1 {
     color:white;
     background-color: black;
     border-radius: 35px;
-    opacity: 100%;
+    opacity: 100% !important;
     height: 100px;
     font-size: 60px;
     width: 70%;
     margin: auto;
     margin-top: 20px;
-    padding-top: 25px;
+    padding-top: 30px;
     border: solid white 5px;
+    font-weight: 3000;
 
 }
 h2 {
     font-size: 25px;
     font-family: 'Comfortaa', cursive;
     margin-bottom: 20px;
+    color: black;
 
 }
 
@@ -45,6 +55,7 @@ h3 {
     font-size: 25px;
     font-family: 'Comfortaa', cursive;
     margin-bottom: 20px;
+    color: black;
 }
 
 button {
