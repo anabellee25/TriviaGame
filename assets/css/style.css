@@ -14,7 +14,7 @@ body {
     text-align: center;
     width: 70%;
     background-color: bisque;
-    opacity: .7;
+    opacity: .8;
     margin: auto;
     margin-top: 20px;
     border: solid white 4px;
@@ -53,12 +53,13 @@ h3 {
     color: black;
 }
 img {
-    height: 220px;
-    width:350px;
+    height: auto;
+    width:380px;
+    margin-top: 20px;
 }
 
 button {
-    width: 50%;
+    width: 65%;
     height: 65px;
     display: block;
     margin:auto;
