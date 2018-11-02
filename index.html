@@ -14,7 +14,13 @@
 </head>
 
 <body>
-    
+ <audio id="Audio">
+    <source src="assets/audio/theoffice.mp3" type="audio/ogg">
+    </audio>
+    <button id="soundButton" onclick="playAudio()" type="button">Play Audio</button>
+    <button id="soundButton" onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+
 <div id="container">
     <h1>The Office Trivia!</h1>
     <div id="subcontainer">
@@ -25,6 +31,9 @@
     </div>
 </div>  
 
+
+
+      
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>

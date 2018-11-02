@@ -94,3 +94,12 @@ button:hover {
     color: black;
 
 }
+
+#soundButton {
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+    float: left;
+    position: relative;
+    top: 20px;
+}

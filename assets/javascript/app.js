@@ -6,7 +6,7 @@
 //create loop to go through questions
 
 $(document).ready(function() {
-    
+
 $("#start").on("click", function() {
     loadQuestion ();
 });
@@ -135,8 +135,11 @@ var questionArea = $("#trivia-questions");
 var currentQuestion = 0;
 var correct = 0;
 var incorrect = 0;
+
  
 //list of all my functions
+
+//audio function
 
 function countdown () {
   counter--;
@@ -213,6 +216,17 @@ function userClicked(answerButton) {
     };
 };
 
+var x = document.getElementById("Audio"); 
+  x.loop = true;
+
+function playAudio() { 
+    x.play(); 
+    
+};
+
+function pauseAudio() { 
+    x.pause();
+};
 
 function reset () {
     currentQuestion = 0;
